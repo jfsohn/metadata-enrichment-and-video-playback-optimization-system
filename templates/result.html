@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Metadata Result</title>
+</head>
+<body>
+    <h1>Movie Metadata</h1>
+    {% if metadata %}
+        <ul>
+            <li>Title: {{ metadata.title }}</li>
+            <li>Year: {{ metadata.year }}</li>
+            <li>Genre: {{ metadata.genre }}</li>
+            <li>Director: {{ metadata.director }}</li>
+            <li>Actors: {{ metadata.actors }}</li>
+            <li>Plot: {{ metadata.plot }}</li>
+            <li>Language: {{ metadata.language }}</li>
+            <li>Country: {{ metadata.country }}</li>
+            <li>Enriched: {{ metadata.enriched }}</li>
+            <li>Custom Field: {{ metadata.custom_field }}</li>
+        </ul>
+    {% else %}
+        <p>No metadata found for the given title. Please add movie via extract_metadata.</p>
+    {% endif %}
+    <a href="/">Back to Search</a>
+</body>
+</html>
