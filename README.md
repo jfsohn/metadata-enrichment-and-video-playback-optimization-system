@@ -19,16 +19,15 @@ An intelligent system that enhances IMDB media content and will eventually optim
 
 TODO:
 
-1) Commit History Squashing
-2) Set up an AWS Lambda function to transcode video to different formats
-3) Use AWS S3 for storing the transcoded videos
-4) Implement a service to package video and metadata for different platforms
-5) Install and configure Kafka
-6) Create topics for communication between services
-7) Develop producers and consumers for Kafka topics to handle event-driven communication
-8) Create a Java service to monitor and optimize video playback quality
-9) Integrate with AWS CloudWatch for metrics collection
-10) Implement adaptive bitrate streaming logic
-11) Implement a collaborative filtering model for content recommendations
-12) Integrate the recommendation system with the metadata service
-13) Use OpenCV to detect key scenes in the video for generating thumbnails
+1) Set up an AWS Lambda function to transcode video to different formats
+2) Use AWS S3 for storing the transcoded videos
+3) Implement a service to package video and metadata for different platforms
+4) Install and configure Kafka
+5) Create topics for communication between services
+6) Develop producers and consumers for Kafka topics to handle event-driven communication
+7) Create a Java service to monitor and optimize video playback quality
+8) Integrate with AWS CloudWatch for metrics collection
+9) Implement adaptive bitrate streaming logic
+10) Implement a collaborative filtering model for content recommendations
+11) Integrate the recommendation system with the metadata service
+12) Use OpenCV to detect key scenes in the video for generating thumbnails
